@@ -1,0 +1,13 @@
+{
+  "name": "usage-pills",
+  "owner": {
+    "name": "phtr-del"
+  },
+  "plugins": [
+    {
+      "name": "usage-pills",
+      "source": "./"
+    }
+  ],
+  "description": "Claude Code 用量膠囊列"
+}
