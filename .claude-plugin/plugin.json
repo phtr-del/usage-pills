@@ -1,6 +1,6 @@
 {
   "name": "usage-pills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "提示框上方的用量膠囊列：5h/7d 用量、模型視窗、context、花費",
   "types": "./types/index.d.ts",
   "author": {
