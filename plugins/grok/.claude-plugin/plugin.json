@@ -1,0 +1,21 @@
+{
+  "name": "grok",
+  "version": "0.1.0",
+  "description": "讓 Claude 透過 xAI API 詢問 Grok，取得第二意見",
+  "author": { "name": "phtr-del" },
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "xAI API 金鑰",
+      "description": "從 console.x.ai 取得；存放在系統安全儲存區（macOS 鑰匙圈）",
+      "sensitive": true,
+      "required": true
+    },
+    "model": {
+      "type": "string",
+      "title": "Grok 模型",
+      "description": "xAI 的模型名稱",
+      "default": "grok-4"
+    }
+  }
+}

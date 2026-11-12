@@ -19,3 +19,7 @@ Claude Code 提示框上方的用量膠囊列：5h／7d 用量與重置倒數、
 - **$**：本次對話累計花費（美元）
 
 數值在每次回應後自動更新；問卷顯示時會暫時讓出位置。
+
+## 同一個 repo 的其他外掛
+
+- [grok](plugins/grok/README.md)：讓 Claude 透過 xAI API 詢問 Grok。安裝：`/plugin install grok --marketplace phtr-del/usage-pills`
